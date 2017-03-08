@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:icon="@android:drawable/ic_menu_manage"
+        android:id="@+id/drawer_home_page"
+        android:title="@string/home_page" />
+    <item
+        android:id="@+id/drawer_about"
+        android:title="@string/about" />
+    <item
+        android:id="@+id/drawer_bookmarks"
+        android:title="@string/bookmarks" />
+    <item
+        android:icon="@android:drawable/star_on"
+        android:id="@+id/drawer_change_style"
+        android:title="@string/app_style" />
+    <item
+        android:id="@+id/drawer_send_log"
+        android:title="@string/app_send_log" />
+
+
+    <item android:title="@string/tools">
+        <menu>
+            <item
+                android:id="@+id/nav_night_mode"
+                android:title="@string/night_mode"
+                app:showAsAction="always" />
+            <!--app:actionLayout="@layout/drawer_switch"-->
+        </menu>
+
+    </item>
+
+</menu>

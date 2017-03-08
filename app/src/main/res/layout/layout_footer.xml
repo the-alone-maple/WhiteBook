@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="28sp"
+    android:gravity="center"
+    android:background="@color/gray"
+    >
+
+    <android.support.v4.widget.ContentLoadingProgressBar
+        android:id="@+id/header_progress"
+        android:layout_width="26dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_5"
+        style="?android:attr/progressBarStyleLargeInverse"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/footer_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="@string/loading_more"/>
+
+</LinearLayout>
